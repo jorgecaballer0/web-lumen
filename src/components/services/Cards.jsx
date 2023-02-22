@@ -5,7 +5,7 @@ import IMG3 from "../../assets/img/img_services_3.jpg";
 
 const Cards = () => {
   return (
-    <div className="flex justify-between sm:flex-col sm:items-center sm:gap-10 md:flex-col md:items-center md:gap-8">
+    <div className="mx-auto flex justify-between sm:flex-col sm:items-center sm:gap-10 md:flex-col md:items-center md:gap-8 lg:flex-wrap lg:px-2">
       <article className="w-80 grayscale filter transition-all duration-200 hover:grayscale-0 sm:flex sm:w-3/5 sm:flex-col sm:grayscale-0 md:w-3/6 md:grayscale-0">
         <img
           className="rounded-md"

@@ -44,7 +44,7 @@ const Navbar = () => {
               offset={-90}
               smooth={true}
               duration={300}
-              className="mx-auto cursor-pointer rounded-md bg-lumen p-2 text-center text-xs uppercase text-white transition-colors hover:bg-cyan-500 sm:hidden md:hidden"
+              className="mx-auto cursor-pointer rounded-md bg-lumen p-3 text-center text-xs uppercase text-white transition-colors hover:bg-cyan-500 sm:hidden md:hidden"
             >
               Solicitá tu presupuesto
             </Link>

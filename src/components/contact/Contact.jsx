@@ -7,12 +7,12 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="mx-auto mt-24 h-screen w-full sm:h-full md:h-full"
+      className="mx-auto mt-24 h-screen w-full sm:h-full md:h-full lg:h-full"
     >
-      <div className="grid grid-cols-2 place-items-center sm:grid-cols-1 md:grid-cols-1">
+      <div className="grid grid-cols-2 place-items-center sm:grid-cols-1 md:grid-cols-1 lg:pl-2">
         <Form />
-        <section className="w-1/2 sm:w-4/5 md:w-full md:text-center">
-          <h3 className="py-2 text-2xl font-bold uppercase text-white sm:text-center sm:text- md:px-4">
+        <section className="w-1/2 sm:w-4/5 md:w-full md:text-center lg:w-4/5">
+          <h3 className="sm:text- py-2 text-2xl font-bold uppercase text-white sm:text-center md:px-4 lg:py-0 lg:px-2">
             Contactá ahora con uno de nuestros asesores comerciales
           </h3>
           <hr className="my-2 h-1 w-20 border-0 bg-lumen sm:mx-auto md:mx-auto" />

@@ -43,7 +43,7 @@ const Home = () => {
           <h4 className="text-sm font-bold uppercase text-white">
             Crecimiento sustentable
           </h4>
-          <h1 className="mt-4 text-4xl font-bold uppercase text-white sm:mt-2 sm:text-3xl md:text-3xl">
+          <h1 className="mt-4 text-5xl font-bold uppercase text-white sm:mt-2 sm:text-3xl md:text-3xl">
             Hacemos lo que prometemos
           </h1>
           <h5 className="mt-8 text-base text-white sm:mt-2 sm:text-sm md:mt-4">
