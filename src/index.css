@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  @apply bg-neutral-900;
+}
+
+/**** HEADER - Animacion scroll ****/
+
+.header {
+  @apply fixed top-0 left-0 z-10 w-full bg-transparent p-4 transition-all;
+}
+
+.header.active {
+  @apply bg-neutral-900 shadow-xl sm:shadow-md;
+}
+
+.logo {
+  @apply mx-auto h-9 cursor-pointer transition-all sm:h-10 md:h-10;
+}
+
+.logo.active {
+  @apply scale-110 sm:scale-100 md:scale-105;
+}
