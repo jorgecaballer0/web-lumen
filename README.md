@@ -1,15 +1,13 @@
 # Página web para Lumen
 
 ## Preview
-![Imagen final - pendiente]()
+![Imagen final](/src/assets/img/preview.png)
 
-## Tecnologías
+## Tecnologías y dependencias
 
-> React Js
+> React JS
 
 > TailwindCSS
-
-## Dependencias
 
 > Flowbite components
 
@@ -17,3 +15,8 @@
 
 > React-icons
 
+## Por implementar 
+
+> Formulario
+> Icono Wsp
+> Animaciones
