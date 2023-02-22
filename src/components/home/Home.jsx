@@ -38,7 +38,7 @@ const Home = () => {
         </div>
       </div>
       {/* TITULO */}
-      <div className="z-10 grid grid-cols-2 sm:mx-auto sm:grid-cols-1 sm:px-4 sm:pt-20 md:mx-auto md:grid-cols-1 md:px-6 md:pt-28 lg:pt-28 lg:px-10">
+      <div className="z-10 grid grid-cols-2 sm:mx-auto sm:grid-cols-1 sm:px-4 sm:pt-20 md:mx-auto md:grid-cols-1 md:px-6 md:pt-28 lg:px-10 lg:pt-28 xl:place-items-center xl:pt-40">
         <div>
           <h4 className="text-sm font-bold uppercase text-white">
             Crecimiento sustentable
@@ -51,9 +51,10 @@ const Home = () => {
           </h5>
         </div>
       </div>
+
       {/* N° CONTACTO */}
-      <div className="grid lg:grid-cols-2 sm:mx-auto sm:grid-cols-1 sm:px-4 sm:pt-28 md:mx-auto md:grid-cols-1 md:px-6 md:pt-40 lg:pt-40 lg:px-10">
-        <h4 className="border-t border-gray-500 py-4 text-sm font-bold text-gray-300 sm:border-none sm:text-xs md:text-base md:w-1/2">
+      <div className="grid sm:mx-auto sm:grid-cols-1 sm:px-4 sm:pt-28 md:mx-auto md:grid-cols-1 md:px-6 md:pt-40 lg:grid-cols-2 lg:px-10 lg:pt-40 xl:pt-40 xl:px-12">
+        <h4 className="border-t border-gray-500 py-4 text-sm font-bold text-gray-300 sm:border-none sm:text-xs md:w-1/2 md:text-base xl:w-1/3">
           Atención - 24/7
         </h4>
         <div className="sm:hidden md:hidden"></div>

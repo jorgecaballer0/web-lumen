@@ -37,7 +37,7 @@ const Navbar = () => {
               onClick={scrollToTop}
             />
           </div>
-          <div className="flex lg:order-1">
+          <div className="flex lg:order-1 xl:order-1">
             <Link
               to="contact"
               spy={true}

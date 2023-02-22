@@ -4,13 +4,13 @@ import Logo from "../../assets/img/logo-lumen-preview.png";
 
 const Footer = () => {
   return (
-    <footer className="mt-4 sm:mt-2 sm:p-4 lg:p-2">
+    <footer className="absolute bottom-2">
       {/* LOGO */}
       <div className="mb-4 sm:mb-0 md:mb-0">
         <div className="flex items-center justify-center">
           <img
             src={Logo}
-            className="mx-auto h-6 sm:h-9 md:h-9"
+            className="mx-auto h-6 sm:h-9 md:h-9 xl:h-10"
             alt="Lumen Logo"
           />
         </div>
@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <hr className="my-3 border-lumen mx-auto sm:my-2 md:my-2" />
+      <hr className="my-3 border-lumen mx-auto" />
       <div className="text-center">
         <span className="text-sm text-gray-400">
           © 2023{" "}
