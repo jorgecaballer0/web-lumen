@@ -38,29 +38,31 @@ const Home = () => {
         </div>
       </div>
       {/* TITULO */}
-      <div className="z-10 grid grid-cols-2 sm:mx-auto sm:grid-cols-1 sm:px-4 sm:pt-20 md:mx-auto md:grid-cols-1 md:px-6 md:pt-28 lg:px-10 lg:pt-28 xl:place-items-center xl:pt-40 xl:px-12">
-        <div>
-          <h4 className="text-sm font-bold uppercase text-white">
-            Crecimiento sustentable
-          </h4>
-          <h1 className="mt-4 text-5xl font-bold uppercase text-white sm:mt-2 sm:text-3xl md:text-3xl">
-            Hacemos lo que prometemos
-          </h1>
-          <h5 className="mt-8 text-base text-white sm:mt-2 sm:text-sm md:mt-4">
-            Desarrollo y logística de proyectos estructurales.
-          </h5>
+      <div className="z-10 xl:container xl:flex xl:flex-col xl:px-10">
+        <div className=" grid grid-cols-2 sm:mx-auto sm:grid-cols-1 sm:px-4 sm:pt-20 md:mx-auto md:grid-cols-1 md:px-6 md:pt-28 lg:px-10 lg:pt-28 xl:place-items-center xl:pt-40">
+          <div>
+            <h4 className="text-sm font-bold uppercase text-white">
+              Crecimiento sustentable
+            </h4>
+            <h1 className="mt-4 text-5xl font-bold uppercase text-white sm:mt-2 sm:text-3xl md:text-3xl">
+              Hacemos lo que prometemos
+            </h1>
+            <h5 className="mt-8 text-base text-white sm:mt-2 sm:text-sm md:mt-4">
+              Desarrollo y logística de proyectos estructurales.
+            </h5>
+          </div>
         </div>
-      </div>
 
-      {/* N° CONTACTO */}
-      <div className="grid sm:mx-auto sm:grid-cols-1 sm:px-4 sm:pt-28 md:mx-auto md:grid-cols-1 md:px-6 md:pt-40 lg:grid-cols-2 lg:px-10 lg:pt-40 xl:pt-40 xl:px-12">
-        <h4 className="border-t border-gray-500 py-4 text-sm font-bold text-gray-300 sm:border-none sm:text-xs md:w-1/2 md:text-base xl:w-1/3">
-          Atención - 24/7
-        </h4>
-        <div className="sm:hidden md:hidden"></div>
-        <div className="flex items-center gap-3 text-3xl font-bold sm:text-xl">
-          <FaPhone className="text-lumen" />
-          <span className="text-white">+54 9 11 5263 9105</span>
+        {/* N° CONTACTO */}
+        <div className="grid sm:mx-auto sm:grid-cols-1 sm:px-4 sm:pt-28 md:mx-auto md:grid-cols-1 md:px-6 md:pt-40 lg:grid-cols-2 lg:px-10 lg:pt-40 xl:pt-40">
+          <h4 className="border-t border-gray-500 py-4 text-sm font-bold text-gray-300 sm:border-none sm:text-xs md:w-1/2 md:text-base xl:w-1/3">
+            Atención - 24/7
+          </h4>
+          <div className="sm:hidden md:hidden"></div>
+          <div className="flex items-center gap-3 text-3xl font-bold sm:text-xl">
+            <FaPhone className="text-lumen" />
+            <span className="text-white">+54 9 11 5263 9105</span>
+          </div>
         </div>
       </div>
     </section>
