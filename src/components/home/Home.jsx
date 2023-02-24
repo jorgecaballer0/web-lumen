@@ -38,7 +38,7 @@ const Home = () => {
         </div>
       </div>
       {/* TITULO */}
-      <div className="z-10 grid grid-cols-2 sm:mx-auto sm:grid-cols-1 sm:px-4 sm:pt-20 md:mx-auto md:grid-cols-1 md:px-6 md:pt-28 lg:px-10 lg:pt-28 xl:place-items-center xl:pt-40">
+      <div className="z-10 grid grid-cols-2 sm:mx-auto sm:grid-cols-1 sm:px-4 sm:pt-20 md:mx-auto md:grid-cols-1 md:px-6 md:pt-28 lg:px-10 lg:pt-28 xl:place-items-center xl:pt-40 xl:px-12">
         <div>
           <h4 className="text-sm font-bold uppercase text-white">
             Crecimiento sustentable
