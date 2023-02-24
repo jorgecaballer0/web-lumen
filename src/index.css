@@ -24,7 +24,7 @@ body {
 }
 
 .logo {
-  @apply mx-auto h-9 cursor-pointer transition-all sm:h-10 md:h-10;
+  @apply mx-auto h-10 cursor-pointer transition-all;
 }
 
 .logo.active {
