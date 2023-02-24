@@ -26,7 +26,7 @@ const Nav = () => {
             activeClass="scale-100 text-lumen font-semibold transition-all"
             spy={true}
             smooth={true}
-            offset={-5}
+            offset={-8}
             duration={300}
             className="block cursor-pointer rounded py-2 pl-3 pr-4 transition-colors lg:hover:bg-transparent lg:hover:text-cyan-500 xl:hover:bg-transparent xl:hover:text-cyan-500"
           >
@@ -39,7 +39,7 @@ const Nav = () => {
             activeClass="scale-100 text-lumen font-semibold transition-all"
             spy={true}
             smooth={true}
-            offset={-80}
+            offset={-83}
             duration={300}
             className="block cursor-pointer rounded py-2 pl-3 pr-4 transition-colors lg:hover:bg-transparent lg:hover:text-cyan-500 xl:hover:bg-transparent xl:hover:text-cyan-500"
           >
@@ -51,7 +51,7 @@ const Nav = () => {
             to="contact"
             activeClass="scale-100 text-lumen font-semibold transition-all"
             spy={true}
-            offset={-90}
+            offset={-93}
             smooth={true}
             duration={300}
             className="block cursor-pointer rounded py-2 pl-3 pr-4 transition-colors lg:hover:bg-transparent lg:hover:text-cyan-500 xl:hover:bg-transparent xl:hover:text-cyan-500"
