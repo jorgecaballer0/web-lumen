@@ -7,7 +7,7 @@ const Nav = () => {
       className="hidden sm:w-full md:w-full lg:flex xl:flex"
       id="navbar-sticky"
     >
-      <ul className="mt-4 flex flex-col rounded-md border border-lumen bg-gray-100 p-4 sm:mt-1 sm:p-2 lg:mt-0 lg:flex-row lg:border-none lg:bg-transparent lg:p-0 lg:text-white xl:mt-0 xl:flex-row xl:border-none xl:bg-transparent xl:p-0 xl:text-white">
+      <ul className="mt-4 flex flex-col rounded-md border border-lumen bg-gray-100 p-4 sm:mt-1 sm:p-2 lg:mt-0 lg:flex-row lg:border-none lg:bg-transparent lg:p-0 lg:text-white xl:mt-0 xl:flex-row xl:border-none xl:bg-transparent xl:p-0 xl:text-white xl:text-lg">
         <li>
           <Link
             to="home"
