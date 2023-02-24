@@ -16,7 +16,7 @@ body {
 /**** HEADER - Animacion scroll ****/
 
 .header {
-  @apply fixed top-0 left-0 z-10 w-full bg-transparent p-4 transition-all;
+  @apply fixed top-0 left-0 z-10 w-full bg-transparent p-4 transition-all xl:px-6;
 }
 
 .header.active {
