@@ -19,7 +19,13 @@ const Home = () => {
       {/* WHATSAPP */}
       <div className="fixed bottom-3 right-3 z-10 sm:bottom-6 sm:right-2 md:bottom-5 md:right-3">
         <div className="group">
-          <WppIcon className="ml-2 cursor-pointer transition-all hover:scale-110 hover:animate-spin" />
+          <a
+            href="https://api.whatsapp.com/send?phone=5491122527693&text=Buenas tardes, me comunico por..."
+            target="_blank"
+            rel="noreferrer"
+          >
+            <WppIcon className="ml-2 cursor-pointer transition-all hover:scale-110 hover:animate-spin" />
+          </a>
           <div className="pointer-events-none absolute right-full top-2 w-36 rounded-md bg-lumen py-2 px-2 text-center text-xs font-semibold text-white opacity-0 transition-all group-hover:opacity-100 sm:hidden md:hidden">
             ¡Envianos tu mensaje!
             <svg
