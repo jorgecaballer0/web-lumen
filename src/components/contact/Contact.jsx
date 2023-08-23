@@ -11,8 +11,8 @@ const Contact = () => {
     >
       <div className="grid grid-cols-2 place-items-center sm:grid-cols-1 md:grid-cols-1 lg:pl-2 xl:pl-4">
         <Form />
-        <section className="sm:w-4/5 md:w-full md:text-center lg:w-4/5 xl:w-full xl:px-4 xl:text-center">
-          <h3 className="sm:text- py-2 text-2xl font-bold uppercase text-white sm:text-center md:px-4 lg:py-0 lg:px-2">
+        <section className="sm:mb-60 sm:w-4/5 md:w-full md:mb-80 md:text-center lg:w-4/5 xl:w-full xl:px-4 xl:text-center">
+          <h3 className="py-2 text-2xl font-bold uppercase text-white sm:text-center md:px-4 lg:py-0 lg:px-2">
             Contactá ahora con uno de nuestros asesores comerciales
           </h3>
           <hr className="my-2 h-1 w-20 border-0 bg-lumen sm:mx-auto md:mx-auto xl:mx-auto" />
