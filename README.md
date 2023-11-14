@@ -9,14 +9,10 @@
 
 > TailwindCSS
 
-> Flowbite components
-
 > React-scroll
 
 > React-icons
 
 ## Por implementar 
 
-> Formulario
-> Icono Wsp
 > Animaciones

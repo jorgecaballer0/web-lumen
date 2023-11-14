@@ -3,10 +3,7 @@ import Cards from "./Cards";
 
 const Services = () => {
   return (
-    <section
-      id="services"
-      className="z-20 mx-auto mt-20 h-full"
-    >
+    <section id="services" className="z-20 mx-auto mt-20 h-full">
       <div className="text-center">
         <h4 className="text-sm font-bold uppercase text-white">
           Antecedentes / Servicios
