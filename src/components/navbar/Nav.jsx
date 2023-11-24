@@ -15,7 +15,7 @@ const Nav = () => {
             spy={true}
             smooth={true}
             duration={300}
-            className="block cursor-pointer rounded py-2 pl-3 pr-4 transition-colors lg:hover:bg-transparent lg:hover:text-cyan-500 xl:hover:bg-transparent xl:hover:text-cyan-500"
+            className="block cursor-pointer rounded py-2 pl-3 pr-4 transition-colors lg:hover:bg-transparent lg:hover:text-lumen xl:hover:bg-transparent xl:hover:text-cyan-500"
           >
             Inicio
           </Link>
@@ -28,7 +28,7 @@ const Nav = () => {
             smooth={true}
             offset={-8}
             duration={300}
-            className="block cursor-pointer rounded py-2 pl-3 pr-4 transition-colors lg:hover:bg-transparent lg:hover:text-cyan-500 xl:hover:bg-transparent xl:hover:text-cyan-500"
+            className="block cursor-pointer rounded py-2 pl-3 pr-4 transition-colors lg:hover:bg-transparent lg:hover:text-lumen xl:hover:bg-transparent xl:hover:text-cyan-500"
           >
             Sobre nosotros
           </Link>
@@ -41,7 +41,7 @@ const Nav = () => {
             smooth={true}
             offset={-83}
             duration={300}
-            className="block cursor-pointer rounded py-2 pl-3 pr-4 transition-colors lg:hover:bg-transparent lg:hover:text-cyan-500 xl:hover:bg-transparent xl:hover:text-cyan-500"
+            className="block cursor-pointer rounded py-2 pl-3 pr-4 transition-colors lg:hover:bg-transparent lg:hover:text-lumen xl:hover:bg-transparent xl:hover:text-cyan-500"
           >
             Servicios
           </Link>
@@ -54,7 +54,7 @@ const Nav = () => {
             offset={-93}
             smooth={true}
             duration={300}
-            className="block cursor-pointer rounded py-2 pl-3 pr-4 transition-colors lg:hover:bg-transparent lg:hover:text-cyan-500 xl:hover:bg-transparent xl:hover:text-cyan-500"
+            className="block cursor-pointer rounded py-2 pl-3 pr-4 transition-colors lg:hover:bg-transparent lg:hover:text-lumen xl:hover:bg-transparent xl:hover:text-cyan-500"
           >
             Contacto
           </Link>

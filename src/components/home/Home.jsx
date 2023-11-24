@@ -62,7 +62,7 @@ const Home = () => {
         {/* N° CONTACTO */}
         <div className="grid sm:mx-auto sm:grid-cols-1 sm:px-4 sm:pt-28 md:mx-auto md:grid-cols-1 md:px-6 md:pt-40 lg:grid-cols-2 lg:px-10 lg:pt-40 xl:pt-40">
           <h4 className="border-t border-gray-500 py-4 text-sm font-bold text-gray-300 sm:border-none sm:text-xs md:w-1/2 md:text-base xl:w-1/3">
-            Atención - 24/7
+            Atención lunes a viernes 09:00 - 17:00 hs.
           </h4>
           <div className="sm:hidden md:hidden"></div>
           <div className="flex items-center gap-3 text-3xl font-bold sm:text-xl">
