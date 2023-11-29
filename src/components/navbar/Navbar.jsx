@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import Nav from "./Nav";
+import NavLG from "./NavLG";
 import Logo from "../../assets/img/logo-lumen-preview.png";
 import { animateScroll as scroll, Link } from "react-scroll";
+import NavSM from "./NavSM";
 
 const Navbar = () => {
   const [headerShadow, setHeaderShadow] = useState(false);
@@ -44,34 +45,13 @@ const Navbar = () => {
               offset={-90}
               smooth={true}
               duration={300}
-              className="mx-auto cursor-pointer rounded-md bg-lumen p-3 text-center text-xs uppercase text-white transition-colors hover:bg-cyan-500 sm:hidden md:hidden xl:p-4"
+              className="mx-auto cursor-pointer rounded-md bg-lumen p-3 text-center text-xs uppercase text-white transition-colors hover:bg-cyan-500 sm:hidden md:hidden lg:p-4 xl:p-4"
             >
               Solicitá tu presupuesto
             </Link>
-            <button
-              data-collapse-toggle="navbar-sticky"
-              type="button"
-              className="hidden items-center rounded-md p-2 text-sm text-lumen hover:bg-transparent focus:outline-none focus:ring-2 focus:ring-lumen sm:inline-flex md:inline-flex"
-              aria-controls="navbar-sticky"
-              aria-expanded="false"
-            >
-              <span className="sr-only">Abrir menú</span>
-              <svg
-                className="h-6 w-6"
-                aria-hidden="true"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                  clipRule="evenodd"
-                ></path>
-              </svg>
-            </button>
           </div>
-          <Nav />
+          <NavSM />
+          <NavLG />
         </div>
       </header>
     </>

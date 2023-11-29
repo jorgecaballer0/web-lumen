@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-const Nav = () => {
+const NavLG = () => {
   return (
     <nav
       className="hidden sm:w-full md:w-full lg:flex xl:flex"
@@ -64,4 +64,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default NavLG;
