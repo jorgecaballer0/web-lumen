@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import NavLG from "./NavLG";
-import Logo from "../../assets/img/logo-lumen-preview.png";
 import { animateScroll as scroll, Link } from "react-scroll";
+import Logo from "../../assets/img/logo-lumen-preview.png";
+import NavLG from "./NavLG";
 import NavSM from "./NavSM";
 
 const Navbar = () => {

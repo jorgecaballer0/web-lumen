@@ -1,4 +1,3 @@
-import React from "react";
 import { FaPhone } from "react-icons/fa";
 import VIDEO from "../../assets/videos/video-1080.mp4";
 import WppIcon from "../icons/WppIcon";

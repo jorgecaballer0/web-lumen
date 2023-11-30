@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-scroll";
 import Logo from "../../assets/img/logo-lumen-preview.png";
 

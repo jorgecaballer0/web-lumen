@@ -1,4 +1,3 @@
-import React from "react";
 import { FaPhone } from "react-icons/fa";
 import Footer from "../footer/Footer";
 import Form from "./Form";
