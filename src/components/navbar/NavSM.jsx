@@ -9,7 +9,7 @@ const NavSM = () => {
       <button
         data-collapse-toggle="navbar-sticky"
         type="button"
-        className="hidden items-center rounded-md p-2 text-sm text-lumen hover:bg-transparent focus:outline-none focus:ring-2 focus:ring-lumen sm:inline-flex md:inline-flex sm:relative md:relative"
+        className="hidden items-center rounded-md p-2 text-sm text-white hover:bg-transparent focus:outline-none sm:inline-flex md:inline-flex sm:relative md:relative"
         aria-controls="navbar-sticky"
         aria-expanded="false"
         onClick={() => setShowMenu(!showMenu)}
@@ -31,56 +31,50 @@ const NavSM = () => {
       </button>
       {showMenu ? (
         <ul className="sm:absolute md:absolute lg:hidden xl:hidden right-0 left-0 mx-auto top-full text-center uppercase bg-neutral-900 border-t-2 border-neutral-500">
-          <li>
-            <Link
-              to="home"
-              activeClass="text-lumen font-semibold transition-all"
-              spy={true}
-              smooth={true}
-              duration={300}
-              className="block cursor-pointer rounded py-2 pl-3 pr-4 transition-colors"
-            >
-              Inicio
-            </Link>
-          </li>
-          <li>
-            {" "}
-            <Link
-              to="home"
-              activeClass="text-lumen font-semibold transition-all"
-              spy={true}
-              smooth={true}
-              duration={300}
-              className="block cursor-pointer rounded py-2 pl-3 pr-4 transition-colors"
-            >
-              Sobre nosotros
-            </Link>
-          </li>
-          <li>
-            {" "}
-            <Link
-              to="home"
-              activeClass="text-lumen font-semibold transition-all"
-              spy={true}
-              smooth={true}
-              duration={300}
-              className="block cursor-pointer rounded py-2 pl-3 pr-4 transition-colors"
-            >
-              Servicios
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="home"
-              activeClass="text-lumen font-semibold transition-all"
-              spy={true}
-              smooth={true}
-              duration={300}
-              className="block cursor-pointer rounded py-2 pl-3 pr-4 transition-colors"
-            >
-              Inicio
-            </Link>
-          </li>
+          <Link
+            to="home"
+            spy={true}
+            smooth={true}
+            duration={300}
+            lumen
+            className="block cursor-pointer rounded py-2 pl-3 pr-4 text-white font-semibold active:text-lumen transition-colors"
+            onClick={() => setShowMenu(!showMenu)}
+          >
+            Inicio
+          </Link>
+          <Link
+            to="about"
+            spy={true}
+            offset={-50}
+            smooth={true}
+            duration={300}
+            className="block cursor-pointer rounded py-2 pl-3 pr-4 text-white font-semibold active:text-lumen transition-colors"
+            onClick={() => setShowMenu(!showMenu)}
+          >
+            Sobre nosotros
+          </Link>
+          <Link
+            to="services"
+            spy={true}
+            offset={-120}
+            smooth={true}
+            duration={300}
+            className="block cursor-pointer rounded py-2 pl-3 pr-4 text-white font-semibold active:text-lumen transition-colors"
+            onClick={() => setShowMenu(!showMenu)}
+          >
+            Servicios
+          </Link>
+          <Link
+            to="contact"
+            spy={true}
+            offset={-240}
+            smooth={true}
+            duration={300}
+            className="block cursor-pointer rounded py-2 pl-3 pr-4 text-white font-semibold active:text-lumen transition-colors"
+            onClick={() => setShowMenu(!showMenu)}
+          >
+            Contacto
+          </Link>
         </ul>
       ) : null}
     </>
