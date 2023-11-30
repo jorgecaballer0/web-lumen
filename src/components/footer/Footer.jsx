@@ -37,8 +37,8 @@ const Footer = () => {
                 </li>
                 <li>
                   <span className="font-semibold">E-mail: </span>
-                  <a href="mailto:fo@lumenobras.com.ar">
-                    fo@lumenobras.com.ar
+                  <a href="mailto:lumen@lumenobras.com.ar">
+                    lumen@lumenobras.com.ar
                   </a>{" "}
                   /{" "}
                   <a href="mailto:administracion@lumenobras.com.ar">

@@ -9,10 +9,10 @@ const Form = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICES_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        "service_q5a8rko",
+        "template_nd79s7a",
         form.current,
-        process.env.REACT_APP_PUBLIC_KEY
+        "sVGDF40RcbfJpWVEi"
       )
       .then((result) => {
         if (result.status === 200) {
@@ -105,7 +105,7 @@ const Form = () => {
           </div>
           {text && (
             <div>
-              <p className="text-sm text-emerald-400">
+              <p className="text-sm text-center text-emerald-400">
                 ¡Tu mensaje fue enviado correctamente! Te estaré contestando a
                 la brevedad.
               </p>
@@ -113,7 +113,7 @@ const Form = () => {
           )}
           {textError && (
             <div>
-              <p className="text-sm text-emerald-400">
+              <p className="text-sm text-center text-emerald-400">
                 Hubo un error en el envío, intentalo más tarde...
               </p>
             </div>
