@@ -36,7 +36,6 @@ const NavSM = () => {
             spy={true}
             smooth={true}
             duration={300}
-            lumen
             className="block cursor-pointer rounded py-2 pl-3 pr-4 text-white font-semibold active:text-lumen transition-colors"
             onClick={() => setShowMenu(!showMenu)}
           >
