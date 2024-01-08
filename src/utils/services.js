@@ -8,23 +8,20 @@ export const services = [
     image: IMG1,
     title: "Reacondicionamiento y Readecuaciones",
     description:
-      "Profesionales del diseño estructural con amplia experiencia realizan verificaciones tanto materiales como funcionales alcanzando un proyecto que optimize la imagen y fortaleza de su empresa cumpliendo también con las regulaciones legales pertinentes.",
-    clients: "UADE - BANCO SANTANDER - GENELBA",
+      "Experimenta una transformación total con Lumen en reacondicionamiento y readecuaciones. Nuestro equipo de profesionales en diseño estructural, con amplia experiencia, lleva a cabo exhaustivas verificaciones, tanto materiales como funcionales. El resultado es un proyecto que optimiza la imagen y fortaleza de tu empresa, garantizando además el cumplimiento integral de las regulaciones legales vigentes.",
   },
   {
     id: 2,
     image: IMG2,
     title: "Instalaciones electromecánicas",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta quidem amet dignissimos at doloremque ullam eveniet perspiciatis enim cum, debitis architecto eligendi voluptates illo repellendus minima facilis? Error eum, veritatis provident minima, assumenda, optio eius exercitationem perferendis architecto animi numquam?",
-    clients: "UADE - BANCO SANTANDER - GENELBA",
+      "Somos líderes en soluciones integrales, especializados en diseño, implementación y mantenimiento. Con asociaciones destacadas, como UADE, UCA y Banco Santander, ofrecemos eficiencia, innovación y cumplimiento legal. Nuestro equipo altamente capacitado garantiza soluciones personalizadas para optimizar la imagen y fortaleza de tu empresa.",
   },
   {
     id: 3,
     image: IMG3,
     title: "Arquitectura y obras civiles",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, expedita? Id praesentium accusamus, facilis ad perspiciatis voluptatibus odit exercitationem necessitatibus rem reprehenderit fugiat sapiente. Dignissimos exercitationem fugit ex quae id.",
-    clients: "UADE - BANCO SANTANDER - GENELBA",
+      "Descubre la excelencia en arquitectura y obras civiles con Lumen. Nuestro equipo especializado, con amplia experiencia, crea y ejecuta proyectos que superan expectativas. Desde diseño hasta construcción, ofrecemos soluciones integrales que transforman espacios con calidad y creatividad. Confía en nosotros para hacer realidad tus proyectos con eficiencia y cumplimiento de normativas.",
   },
 ];

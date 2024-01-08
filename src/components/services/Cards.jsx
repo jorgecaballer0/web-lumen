@@ -9,12 +9,11 @@ const Cards = () => {
           className="w-1/5 grayscale filter transition-all duration-200 hover:grayscale-0 sm:flex sm:w-3/5 sm:flex-col sm:grayscale-0 md:w-3/6 md:grayscale-0"
         >
           <img className="rounded-md" src={item.image} alt={item.title} />
-          <h2 className="text-center text-xl font-bold uppercase text-white sm:mx-auto sm:pt-1 sm:text-base md:mx-auto md:pt-2">
+          <h2 className="text-center text-xl font-bold uppercase text-white py-2 sm:mx-auto sm:pt-1 sm:text-base md:mx-auto md:pt-2">
             {item.title}
           </h2>
           <p className="flex flex-col text-center text-gray-300 sm:text-sm">
             {item.description}
-            <span className="font-bold"> {item.clients}</span>
           </p>
         </article>
       ))}
