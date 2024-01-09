@@ -22,6 +22,12 @@ const About = () => {
           facilitar técnicas y procesos a la hora de ejecutar proyectos de
           diversas magnitudes.
         </p>
+        <p className="mt-4 text-gray-700 sm:text-sm">
+          En <span className="font-bold">Lumen</span>, nos enorgullece nuestra
+          dedicación a la innovación y sostenibilidad. Trabajamos de la mano con
+          nuestros clientes para garantizar soluciones efectivas y amigables con
+          el medio ambiente en cada proyecto que emprendemos.
+        </p>
       </div>
       {/* IMAGENES */}
       <Cards />
